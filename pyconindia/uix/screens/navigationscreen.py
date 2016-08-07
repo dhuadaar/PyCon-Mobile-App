@@ -57,6 +57,7 @@ class NavigationScreen(Screen):
             #     text: 'DevSprints'
             MenuButton
                 text: 'Ticket'
+                on_release: app.load_screen('TicketScreen', manager=app.navigation_manager)
             MenuButton
                 text: 'Community'
             MenuButton
